@@ -1020,10 +1020,7 @@ pre code {
     max-width: 66.6666666667%;
   }
 
-  .col-md-9 {
-    flex: 0 0 75%;
-    max-width: 75%;
-  }
+ 
 
   .col-md-10 {
     flex: 0 0 83.3333333333%;
@@ -10148,9 +10145,6 @@ h3 {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6;
-  }
-  .text-blue{
-    color:green;
   }
 }
 

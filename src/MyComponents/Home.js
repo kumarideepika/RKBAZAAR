@@ -1,5 +1,5 @@
 import '../App.css';
-
+// import './boot÷'
 
 function Home() {
     return (
@@ -9,9 +9,9 @@ function Home() {
                 <section class="header-main border-bottom">
                     <div class="container">
                         <div class="row align-items-center">
-                            <div class="text-blue">
+                            {/* <div className="text-1">
                                 RK BAZAAR
-                            </div>
+                            </div> */}
                             <div class="col-lg-6 col-sm-12">
                                 <form action="#" class="search">
                                     <div class="input-group w-100">
@@ -60,7 +60,7 @@ function Home() {
                         <div class="collapse navbar-collapse" id="main_nav">
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#">Home</a>
+                                    <a class="nav-link" href="#">Homec</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">About</a>
@@ -106,27 +106,25 @@ function Home() {
             <section class="section-main bg padding-y">
                 <div class="container">
 
-                    <div class="row">
-                        <aside class="col-md-3">
+                    {/* <div class="row"> */}
+                        {/* <aside class="col-md-3">
                             <nav class="card">
                                 <ul class="menu-category">
-                                    <li><a href="#">Best clothes</a></li>
-                                    <li><a href="#">Automobiles</a></li>
+                                    <li><a href="#">Best Grocery</a></li>
                                     <li><a href="#">Home interior</a></li>
                                     <li><a href="#">Electronics</a></li>
-                                    <li><a href="#">Technologies</a></li>
-                                    <li><a href="#">Digital goods</a></li>
+                                    <li><a href="#">Sports</a></li>
+                                    <li><a href="#">Kitchen</a></li>
                                     <li><a href="#">Online goods</a></li>
                                 </ul>
                             </nav>
-                        </aside>
+                        </aside> */}
                         <div class="col-md-9">
                             <article class="banner-wrap">
                                 <video src="/assets/images/items/RK.mp4" controls="controls" autoplay="true" />
-                                {/* <img src="/assets/images/items/RKBANNER.jpg" resizeMethod='certain' class="w-100 rounded" /> */}
                             </article>
                         </div>
-                    </div>
+                    {/* </div> */}
                 </div>
             </section>
 
@@ -137,89 +135,190 @@ function Home() {
                         <a href="#" class="btn btn-outline-primary float-right">See all</a>
                         <a href="#" class="btn btn-outline-primary float-right" >React Native</a>
                         <a href="" class="" >Online Framework</a>
-
                         <h3 class="section-title">Popular products</h3>
-
                     </header>
 
 
 
                     <div class="row">
-                        <div class="col-md-3">
+                    <div class="col-md-3">
                             <div href="#" class="card card-product-grid">
-                                <a href="#" class="img-wrap"> <img src="/assets/images/items/VdImage.mp4" /> </a>
-
-
-                                {/* <img src="%PUBLIC_URL%/images/mypic.jpg" /> */}
+                                <a href="#" class="img-wrap"> <img src="../assets/images/items/Loose-Grocery.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Just another product name</a>
-                                    <div class="price mt-1">$179.00</div>
+                                    <a href="#" class="title">Loose Grocery</a>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
                                 </figcaption>
                             </div>
                         </div>
 
                         <div class="col-md-3">
                             <div href="#" class="card card-product-grid">
-                                <a href="#" class="img-wrap"> <img src="../assets/images/items/2.jpg" /> </a>
+                                <a href="#" class="img-wrap"> <img src="../assets/images/items/Branded-Grocery.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Some item name here</a>
-                                    <div class="price mt-1">$280.00</div>
+                                    <a href="#" class="title">Kitchen</a>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
+
                                 </figcaption>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div href="#" class="card card-product-grid">
-                                <a href="#" class="img-wrap"> <img src="assets/images/items/3.jpg" /> </a>
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Packaged-Food-1.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Great product name here</a>
-                                    <div class="price mt-1">$56.00</div>
+                                    <a href="#" class="title">Sports</a>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
                                 </figcaption>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div href="#" class="card card-product-grid">
-                                <a href="#" class="img-wrap"> <img src="assets/images/items/4.jpg" /> </a>
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Dairy-Frozen-Products.jpeg" /> </a>
+                                <figcaption class="info-wrap">
+                                    <a href="#" class="title">Electronics</a>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
+
+                                </figcaption>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div href="#" class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Snacks-Beverages-1.jpeg" /> </a>
+                                <figcaption class="info-wrap">
+                                    <a href="#" class="title">Men's Section</a>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
+
+                                </figcaption>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div href="#" class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Snacks-Beverages-1.jpeg" /> </a>
+                                <figcaption class="info-wrap">
+                                    <a href="#" class="title">Female's Section</a>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
+
+                                </figcaption>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div href="#" class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Household-Essentials.jpeg" /> </a>
+                                <figcaption class="info-wrap">
+                                    <a href="#" class="title">Home Interior</a>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
+
+                                </figcaption>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div href="#" class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Personal-Care.jpeg" /> </a>
                                 <figcaption class="info-wrap">
                                     <a href="#" class="title">Just another product name</a>
-                                    <div class="price mt-1">$179.00</div>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
+
                                 </figcaption>
                             </div>
+                            
                         </div>
                         <div class="col-md-3">
                             <div href="#" class="card card-product-grid">
-                                <a href="#" class="img-wrap"> <img src="assets/images/items/5.jpg" /> </a>
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Baby-Care.jpeg" /> </a>
                                 <figcaption class="info-wrap">
                                     <a href="#" class="title">Just another product name</a>
-                                    <div class="price mt-1">$179.00</div>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
+
                                 </figcaption>
                             </div>
+                            
                         </div>
                         <div class="col-md-3">
                             <div href="#" class="card card-product-grid">
-                                <a href="#" class="img-wrap"> <img src="assets/images/items/6.jpg" /> </a>
-                                <figcaption class="info-wrap">
-                                    <a href="#" class="title">Some item name here</a>
-                                    <div class="price mt-1">$280.00</div>
-                                </figcaption>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div href="#" class="card card-product-grid">
-                                <a href="#" class="img-wrap"> <img src="assets/images/items/7.jpg" /> </a>
-                                <figcaption class="info-wrap">
-                                    <a href="#" class="title">Great product name here</a>
-                                    <div class="price mt-1">$56.00</div>
-                                </figcaption>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div href="#" class="card card-product-grid">
-                                <a href="#" class="img-wrap"> <img src="assets/images/items/5.jpg" /> </a>
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Bed-N-Bath.jpeg" /> </a>
                                 <figcaption class="info-wrap">
                                     <a href="#" class="title">Just another product name</a>
-                                    <div class="price mt-1">$179.00</div>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
+
                                 </figcaption>
                             </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div href="#" class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Crockery.jpeg" /> </a>
+                                <figcaption class="info-wrap">
+                                    <a href="#" class="title">Just another product name</a>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
+
+                                </figcaption>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div href="#" class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Plastics-Articles.jpeg" /> </a>
+                                <figcaption class="info-wrap">
+                                    <a href="#" class="title">Just another product name</a>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
+                                </figcaption>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div href="#" class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Stationery-.jpeg" /> </a>
+                                <figcaption class="info-wrap">
+                                    <a href="#" class="title">Just another product name</a>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
+                                </figcaption>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div href="#" class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Steel.jpeg" /> </a>
+                                <figcaption class="info-wrap">
+                                    <a href="#" class="title">Just another product name</a>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
+                                </figcaption>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div href="#" class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Pooja-Items.jpeg" /> </a>
+                                <figcaption class="info-wrap">
+                                    <a href="#" class="title">Just another product name</a>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
+                                </figcaption>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div href="#" class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Toys-Gift-Articles.jpeg" /> </a>
+                                <figcaption class="info-wrap">
+                                    <a href="#" class="title">Just another product name</a>
+                                    <del>₹180</del>
+                                    <div class="price mt-1">Starting with ₹89.00</div>
+                                </figcaption>
+                            </div>
+                            
                         </div>
                     </div>
 
@@ -253,9 +352,9 @@ function Home() {
                             <aside class="col-md col-6">
                                 <h6 class="title">Brands</h6>
                                 <ul class="list-unstyled">
-                                    <li> <a href="#">Adidas</a></li>
-                                    <li> <a href="#">Puma</a></li>
-                                    <li> <a href="#">Reebok</a></li>
+                                    <li> <a href="#">Ashirwad</a></li>
+                                    <li> <a href="#">Haldiram</a></li>
+                                    <li> <a href="#">Hathi</a></li>
                                     <li> <a href="#">Nike</a></li>
                                 </ul>
                             </aside>

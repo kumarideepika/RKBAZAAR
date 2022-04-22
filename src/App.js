@@ -60,7 +60,7 @@ function App() {
   return (
     <>
       <Router>
-        <Header className="navbar-brand" title="React Hello" searchBar={false} />
+        <Header className="navbar-brand" title="RK BAZAAR"  searchBar={false}  />
         <Switch>
           <Route exact path="/" render={() => {
             return (
