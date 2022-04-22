@@ -23,9 +23,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.navbar-brand {
+  color: #19041a;
+}
 .App-link {
-  color: #61dafb;
+  color: #61dafc;
 }
 
 @keyframes App-logo-spin {
