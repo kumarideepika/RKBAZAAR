@@ -1,7 +1,12 @@
+import React from "react";
 import '../App.css';
 // import './boot÷'
-
-function Home() {
+// const TransitionGroup = React.addons.TransitionGroup;
+export default class Home extends React.Component {
+constructor(props){
+    super(props);
+}
+render() {
     return (
         <div className="App">
             <header class="section-header">
@@ -57,16 +62,13 @@ function Home() {
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
-                        <div class="collapse navbar-collapse" id="main_nav">
+                        <div class="collapse-navbar-collapse" id="main_nav">
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#">Homec</a>
+                                    <a class="nav-link" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Supermarket</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Partnership</a>
@@ -75,13 +77,13 @@ function Home() {
                                     <a class="nav-link" href="#">Baby &amp Toys</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Fitness sport</a>
+                                    <a class="nav-link" href="#">Grocery</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Clothing</a>
+                                    <a class="nav-link" href="#">Kitchen</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Furnitures</a>
+                                    <a class="nav-link" href="#">Sports</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"> More</a>
@@ -121,7 +123,8 @@ function Home() {
                         </aside> */}
                         <div class="col-md-9">
                             <article class="banner-wrap">
-                                <video src="/assets/images/items/RK.mp4" controls="controls" autoplay="true" />
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/wallpaper1.jpg" /> </a>
+                                {/* <video src="/assets/images/items/RK.mp4" controls="controls" autoplay="true" /> */}
                             </article>
                         </div>
                     {/* </div> */}
@@ -156,7 +159,7 @@ function Home() {
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="../assets/images/items/Branded-Grocery.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Kitchen</a>
+                                    <a href="#" class="title">Branded Grocery</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
 
@@ -167,7 +170,7 @@ function Home() {
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Packaged-Food-1.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Sports</a>
+                                    <a href="#" class="title">Bansal Packed Grocery</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
                                 </figcaption>
@@ -177,7 +180,7 @@ function Home() {
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Dairy-Frozen-Products.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Electronics</a>
+                                    <a href="#" class="title">Dairy & Frozen Products</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
 
@@ -188,7 +191,7 @@ function Home() {
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Snacks-Beverages-1.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Men's Section</a>
+                                    <a href="#" class="title">Snacks & Beverages</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
 
@@ -197,9 +200,9 @@ function Home() {
                         </div>
                         <div class="col-md-3">
                             <div href="#" class="card card-product-grid">
-                                <a href="#" class="img-wrap"> <img src="assets/images/items/Snacks-Beverages-1.jpeg" /> </a>
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/Packaged-Food.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Female's Section</a>
+                                    <a href="#" class="title">Packaged Food</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
 
@@ -210,7 +213,7 @@ function Home() {
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Household-Essentials.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Home Interior</a>
+                                    <a href="#" class="title">Household Essentials</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
 
@@ -221,7 +224,7 @@ function Home() {
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Personal-Care.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Just another product name</a>
+                                    <a href="#" class="title">Personal Care</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
 
@@ -233,7 +236,7 @@ function Home() {
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Baby-Care.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Just another product name</a>
+                                    <a href="#" class="title">Baby Care</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
 
@@ -245,7 +248,7 @@ function Home() {
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Bed-N-Bath.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Just another product name</a>
+                                    <a href="#" class="title">Bed N Bath</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
 
@@ -257,7 +260,7 @@ function Home() {
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Crockery.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Just another product name</a>
+                                    <a href="#" class="title">Crockery</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
 
@@ -269,7 +272,7 @@ function Home() {
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Plastics-Articles.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Just another product name</a>
+                                    <a href="#" class="title">Small Home Appliances</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
                                 </figcaption>
@@ -280,7 +283,7 @@ function Home() {
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Stationery-.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Just another product name</a>
+                                    <a href="#" class="title">JStationery</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
                                 </figcaption>
@@ -291,7 +294,7 @@ function Home() {
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Steel.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Just another product name</a>
+                                    <a href="#" class="title">Steel</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
                                 </figcaption>
@@ -302,7 +305,7 @@ function Home() {
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Pooja-Items.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Just another product name</a>
+                                    <a href="#" class="title">Pooja Items</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
                                 </figcaption>
@@ -313,7 +316,7 @@ function Home() {
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Toys-Gift-Articles.jpeg" /> </a>
                                 <figcaption class="info-wrap">
-                                    <a href="#" class="title">Just another product name</a>
+                                    <a href="#" class="title">JToys & Gift Articles</a>
                                     <del>₹180</del>
                                     <div class="price mt-1">Starting with ₹89.00</div>
                                 </figcaption>
@@ -431,4 +434,4 @@ function Home() {
         </div>
     );
 }
-export default Home;
+}

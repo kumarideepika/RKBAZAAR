@@ -12,7 +12,13 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.navbar{
+  background-color: #131d65 !important;
+ 
+}
+.nav-link{
+  color: #fff !important;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -47,16 +53,21 @@
   stroke-linecap: initial;
 }
 .col-md-9 {
-  flex: 1 1 100%;
-  width: 100%;
-  max-width: 100%;
+  flex: 1 2 150%;
+  width: 150%;
+  max-width: 250%;
   border-width: 1;
 }
+
 .banner-wrap{
-  flex: 1 1 100%;
+  /* flex: 1 1 150%; */
   width: 100%;
-  max-width: 100%;
-  border-width: 1;
+  max-width: 250%;
+  /* border-width: 1; */
+  background-color: #136513;
+  align-items: center;
+  align-self: center;
+  align-content: center;
 }
 
 @keyframes App-logo-spin {
