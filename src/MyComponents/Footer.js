@@ -5,7 +5,7 @@ export const Footer = () => {
     return (
         <footer className="bg-dark text-light py-3">
             <p className="text-center">
-                Copyright &copy; RKTechnology.com 2018-2022
+                Copyright &copy; RKtechnologies.com 2018-2022
             </p>
         </footer>
     )

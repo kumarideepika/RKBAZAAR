@@ -65,7 +65,7 @@ render() {
                         <div class="collapse-navbar-collapse" id="main_nav">
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#">Home</a>
+                                    <a class="nav-link" href="#">Homes</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">About</a>
@@ -123,7 +123,7 @@ render() {
                         </aside> */}
                         <div class="col-md-9">
                             <article class="banner-wrap">
-                                <a href="#" class="img-wrap"> <img src="assets/images/items/wallpaper1.jpg" /> </a>
+                                <a href="#" class="img-wrap"> <img src="assets/images/items/wallpaper5.jpg" /> </a>
                                 {/* <video src="/assets/images/items/RK.mp4" controls="controls" autoplay="true" /> */}
                             </article>
                         </div>
@@ -357,18 +357,17 @@ render() {
                                 <ul class="list-unstyled">
                                     <li> <a href="#">Ashirwad</a></li>
                                     <li> <a href="#">Haldiram</a></li>
-                                    <li> <a href="#">Hathi</a></li>
-                                    <li> <a href="#">Nike</a></li>
+                                    <li> <a href="#">DAAWAT Rice</a></li>
+                                    <li> <a href="#">Kohinoor Basmati Rice</a></li>
                                 </ul>
                             </aside>
                             <aside class="col-md col-6">
                                 <h6 class="title">Company</h6>
                                 <ul class="list-unstyled">
-                                    <li> <a href="#">About us</a></li>
-                                    <li> <a href="#">Career</a></li>
-                                    <li> <a href="#">Find a store</a></li>
-                                    <li> <a href="#">Rules and terms</a></li>
-                                    <li> <a href="#">Sitemap</a></li>
+                                    <li> <a href="#">Amazon Retail India Private Limited</a></li>
+                                    <li> <a href="#">Fortune Chakki Fresh Atta</a></li>
+                                    <li> <a href="#">Fortune Mustard Oil</a></li>
+                                    <li> <a href="#">Dhara Mustard Oil</a></li>
                                 </ul>
                             </aside>
                             <aside class="col-md col-6">
@@ -384,11 +383,12 @@ render() {
                             <aside class="col-md col-6">
                                 <h6 class="title">Category</h6>
                                 <ul>
-                                    <li><a href="#"></a>React Native</li>
-                                    <li><a href="#"></a>Flutter</li>
-                                    <li><a href="#"></a>Ionic framwork</li>
-                                    <li><a href="#"></a>User Interface</li>
-                                    <li><a href="#"></a>TextInput</li>
+                                    <li><a href="#"></a>Grocery</li>
+                                    <li><a href="#"></a>Dairy Products</li>
+                                    <li><a href="#"></a>Snacks & Beverages</li>
+                                    <li><a href="#"></a>Packaged Food</li>
+                                    <li><a href="#"></a>Household Essentials</li>
+                                    <li><a href="#"></a>Personal Car</li>
                                 </ul>
                             </aside>
                             <aside class="col-md col-6">
